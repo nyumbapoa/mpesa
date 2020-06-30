@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/bluele/gcache"
 	"log"
-	"mpesa/http"
-	"mpesa/model"
-	"mpesa/utils"
+	"mpesa/internal/http"
+	"mpesa/internal/model"
+	"mpesa/internal/utils"
 	"strconv"
 	"time"
 )

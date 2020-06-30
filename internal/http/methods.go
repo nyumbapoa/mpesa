@@ -7,7 +7,7 @@ import (
 	"github.com/google/go-querystring/query"
 	"io/ioutil"
 	"log"
-	"mpesa/model"
+	"mpesa/internal/model"
 	"net/http"
 )
 
