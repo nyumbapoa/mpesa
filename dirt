@@ -1,0 +1,14 @@
+	/*
+	res, err := svc.C2BSimulation(
+	   		600157,
+	   		"CustomerPayBillOnline",
+	   		22,
+	   		254746445198,
+	   		"Testing",
+	   	)
+	*/
+
+	const (
+    	appKey    = "U6rmmhdlCk8nDLjDKOFGFQOWgxXjIuA2"
+    	appSecret = "xi2mgDw9hmYDr7DN"
+    )

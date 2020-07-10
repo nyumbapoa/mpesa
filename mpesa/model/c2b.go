@@ -2,7 +2,7 @@ package model
 
 //C2BURLRegister used to create validation and confirmation URLS
 type C2BURLRegister struct {
-	ShortCode       string `json:"ShortCode"`
+	ShortCode       int    `json:"ShortCode"`
 	ResponseType    string `json:"ResponseType"`
 	ConfirmationURL string `json:"ConfirmationURL"`
 	ValidationURL   string `json:"ValidationURL"`
@@ -10,7 +10,7 @@ type C2BURLRegister struct {
 
 //C2BSimulation used for simulating transactions
 type C2BSimulation struct {
-	ShortCode     string `json:"ShortCode"`
+	ShortCode     int    `json:"ShortCode"`
 	CommandID     string `json:"CommandID"`
 	Amount        int    `json:"Amount"`
 	MSISDN        int    `json:"Msisdn"`
